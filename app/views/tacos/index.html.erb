@@ -1,0 +1,13 @@
+<% fillings = ["cauliflower", "buffalo sauce", "cheese", "cilantro","hot sauce"] %>
+
+<h1>Sahar's tacos</h1>
+<ul>
+    <% for filling in fillings %>
+        <li><%=filling %> </li>
+    <% end %>
+
+</ul>
+
+<!-- here's a comment -->
+<% #this is also a comment %>
+<p> Currently there are <%= fillings.count %> ingredients in the tacos </p>
